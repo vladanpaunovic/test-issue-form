@@ -21,27 +21,6 @@ body:
         - Self-hosted/on-premise
     validations:
       required: true
-  - type: dropdown
-    id: package
-    attributes:
-      label: Which package are you using?
-      options:
-        - sentry/browser
-        - sentry/nextjs
-        - sentry/angular
-        - sentry/ember
-        - sentry/gatsby
-        - sentry/integrations
-        - sentry/node
-        - sentry/react
-        - sentry/serverless
-        - sentry/vue
-        - sentry/wasm
-        - sentry/utils
-        - raven-js
-        - raven-node (raven for node)
-    validations:
-      required: true
   - type: input
     id: version
     attributes:
