@@ -17,7 +17,7 @@ body:
       label: Is there an existing issue for this?
       description: Please search to see if an issue already exists for the bug you encountered.
       options:
-        - label: I reviewed the documentation: https://docs.sentry.io/
+        - label: I reviewed the documentation https://docs.sentry.io/
           required: true
         - label: I have also searched the existing issues
           required: true
