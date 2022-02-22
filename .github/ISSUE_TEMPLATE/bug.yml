@@ -19,6 +19,8 @@ body:
       options:
         - label: I have searched the existing issues
           required: true
+        - label: I have also searched the existing issues
+          required: true
   - type: dropdown
     id: type
     attributes:
