@@ -2,16 +2,6 @@ name: 🐞 Bug Report
 description: Tell us about something that's not working the way we (probably) intend.
 labels: "Type: Bug"
 body:
-  - type: checkboxes
-    id: prerequisites
-    attributes:
-      label: Prerequisites
-      description: Please, make sure you check all checkboxes
-      options:
-        - label: Review the documentation: https://docs.sentry.io/
-        - label: Search for existing issues: https://github.com/getsentry/sentry-javascript/issues
-        - label: Use the latest release: https://github.com/getsentry/sentry-javascript/releases
-        - label: Provide a link to the affected event from your Sentry account
   - type: dropdown
     id: type
     attributes:
@@ -21,4 +11,3 @@ body:
         - Self-hosted/on-premise
     validations:
       required: true
- 
