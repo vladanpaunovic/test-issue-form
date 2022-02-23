@@ -57,7 +57,7 @@ body:
     id: link-to-sentry
     attributes:
       label: Link to Sentry event
-      description: If applicable, provide a link to the affected event from your Sentry account. The event will only be viewable by Sentry staff. Note: This should be an event link, not an issue link, and should match the form shown below. It can be found by clicking on the event ID on the issue details page.
+      description: If applicable, provide a link to the affected event from your Sentry account. The event will only be viewable by Sentry staff.
       placeholder: https://sentry.io/organizations/<org-slug>/issues/<issue-id>/events/<event-id>/?project=<project-id>
   - type: textarea
     id: repro
